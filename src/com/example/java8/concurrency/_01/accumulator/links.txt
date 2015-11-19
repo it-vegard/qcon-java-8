@@ -1,0 +1,4 @@
+ http://minddotout.wordpress.com/2013/05/11/java-8-concurrency-longadder/
+ http://blog.palominolabs.com/2014/02/10/java-8-performance-improvements-longadder-vs-atomiclong/
+ http://www.takipiblog.com/2014/04/16/java-8-longadders-the-fastest-way-to-add-numbers-concurrently/
+   

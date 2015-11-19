@@ -1,0 +1,18 @@
+You've got an AccountDAO:
+
+	public class AccountDAO {
+		public Account findById(long id);
+	}
+
+Some possible options...:
+(1) You could throw a NotFoundException.  But then someone has to catch it.
+(2) You could return null, but now you have to document the null behavior and constantly check for null.
+(3) You could have two methods...  findExactlyOne(id) and findOneOrNull(id).  But you've got double the work.
+(4) You could use java.util.Optional in the method signature.
+
+Look at these examples in the following order:
+* PainfulSolution1.java
+* PainfulSolution2.java
+* PainfulSolution3.java
+* SolutionUsingOptional1.java
+* SolutionUsingOptional2.java
